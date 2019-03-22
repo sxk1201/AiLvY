@@ -1,0 +1,126 @@
+*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background:lightgray;
+			}
+			.outer{
+				width: 900px;
+				height: 400px;
+				margin: auto;
+				background: #f9f9f9;
+				margin-top: 100px;
+				
+			}
+			.tt{
+				float: left;
+				position: absolute;
+				margin-top: 40px;
+			}
+			.tt .t1{
+				margin-left: 29px;
+				margin-top: 20px;
+			}
+			.tt .t2{
+				margin-left: 190px;
+				margin-top: -304px;
+			}
+			.tt .t3{
+				margin-left: 190px;
+				margin-top: 10px;
+			}
+			.tt .t4{
+				margin-left: 330px;
+				margin-top:-143px;
+			}
+			.et{
+				position: absolute;
+				font-size: 15px;
+				font-family: 黑体;
+				margin-top: 40px;
+				margin-left: 30px;
+				
+			}
+			.tr{
+				width: 400px;
+				height: 380px;
+				float: right;
+			}
+			.tr h2{
+				font-size: 25px;
+				margin-top: 30px;
+			}
+			.tr input{
+				width: 350px;
+				height: 50px;
+				border-radius: 5px;
+				margin-top:10px;
+				margin-left: 20px;
+				
+			}
+			.btn{
+				width:50%;
+				height: 50px;
+				line-height: 50px;
+				border:none;
+				background: green;
+				border-radius: 5px;
+				font-size:20px;
+				color:#fff;
+				cursor: pointer;
+				text-align: center;
+				font-family: 黑体;
+				margin-top: 20px;
+			}
+			.te{
+				width:50%;
+				height: 50px;
+				float: right;
+				margin-top: -40px;
+			
+				font-size: 15px;
+				}
+				
+			.te input{ 
+				width: 20px;
+				float: left;
+				margin-top: -15px;
+			}
+			.d1{
+				background: url(../img/qq.jpg) center center no-repeat;
+				width: 160px;
+				height: 50px;
+				float: left;
+			}
+			.d2{
+				background: url(../img/weibo.jpg) center center no-repeat;
+				width: 180px;
+				height: 50px;
+				float: left;
+			}
+			.d1 li{
+				position: relative;
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 10px;
+			}
+			.d2 li{
+				position: relative;
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 10px;
+			}
+			.d3 {
+				margin-left: 100px;
+			}
+			.d3 li{
+				position: relative;
+				list-style: none;
+				float:left;
+				margin-top: 20px;
+				margin-left: 20px;
+			}
+			a{
+				text-decoration: none;
+			}

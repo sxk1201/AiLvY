@@ -1,0 +1,173 @@
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background:url(../img/wallpaper.jpg)  /*center center no-repeat*/;
+				position: absolute;
+			}
+			.post{
+				margin:auto;
+				width: 800px;
+				height: 400px;
+				background-color:#F9F9F9 ;
+				position: relative;
+				margin-left: 270px;
+				margin-top: 300px;
+				margin-bottom: 100px;
+			}
+			.p1{
+				border-bottom: 10px solid greenyellow;
+				font-size: 30px;
+				width: 150px;
+				position: absolute;
+				margin-top: 50px;
+				margin-left: 50px;
+				font-family: '楷体';
+				
+			}
+			.register{
+				width: 400px;
+				height: 250px;
+				position: absolute;
+				margin-top: 100px;
+				font-size: 20px;
+				font-family: '楷体';
+			}
+			.register-box{
+				margin-top: 20px;
+				margin-left: 50px;
+			}
+			
+			#btn{
+				width:150px;
+				height: 50px;
+				line-height: 50px;
+				border:none;
+				background: lightgreen;
+				border-radius: 5px;
+				font-size:18px;
+				color:#fff;
+				cursor: pointer;
+				margin-top: 50px;
+				margin-left:100px ;
+			}
+			.k1{
+				border-bottom: 10px solid greenyellow;
+				font-size: 30px;
+				width: 150px;
+				position: absolute;
+				margin-top: 50px;
+				margin-left: 400px;
+				font-family: '楷体';
+			}
+			.kk{
+				float: right;
+				width: 400px;
+				height: 250px;
+				margin-top: 100px;
+				border-left: 4px solid gray;
+			}
+			.kk1{
+				background: url(../img/qq.jpg) center center no-repeat;
+				width: 160px;
+				height: 50px;
+				float: left;
+				margin-left: 20px;
+				margin-top: 30px;
+				
+			}
+			.kk1 li{
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 15px;
+			}
+			.kk2{
+				background: url(../img/weibo.jpg) center center no-repeat;
+				width: 180px;
+				height: 50px;
+				float: left;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+			.kk2 li{
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 15px;
+			}
+			.kk3{
+				background: url(../img/tao.jpg) center center no-repeat;
+				width: 160px;
+				height: 50px;
+				float: left;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+			.kk3 li{
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 15px;
+			}
+			.kk4{
+				background: url(../img/tengxun.jpg) center center no-repeat;
+				width: 180px;
+				height: 50px;
+				float: left;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+			.kk4 li{
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 15px;
+			}
+			.kk5{
+				background: url(../img/douban.jpg) center center no-repeat;
+				width: 160px;
+				height: 50px;
+				float: left;
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+			.kk5 li{
+				list-style: none;
+				margin-left: 50px;
+				margin-top: 15px;
+			}
+			a{
+				text-decoration: none;
+			}
+			.kk6{
+				position:absolute;
+				float: left;
+				margin-top: 270px;		
+				margin-left: 200px;		
+			}
+.register-box .box.right i{
+	width:20px;
+	height: 20px;
+	position: absolute;
+	top:50%;
+	margin-top:-10px;
+	right:30px;
+}
+/*输入信息错误--error*/
+.register-box .box.error{
+	border:1px solid red;
+}
+/*-------------tip------------*/
+/*tip常规类*/
+.register-box .tip.hide{
+	display: none;
+}
+/*tip错误*/
+
+.register-box .tip.error span{
+	color:red;
+}
+/*tip默认*/
+
+.register-box .tip.default  span{
+	color:gray;
+}
+
